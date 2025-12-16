@@ -193,8 +193,6 @@ exclude:
   - readme_preview/
   - vendor
   # stuff i want to remove
-  - _pages/projects.md
-  - _projects/
   - _pages/teaching.md
   - _pages/repositories.md
   #- _pages/cv.md
