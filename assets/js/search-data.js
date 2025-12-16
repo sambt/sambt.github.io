@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Working material, documentation, and blog posts for some of my projects",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -33,7 +40,12 @@ ninja.data = [{
         },{id: "news-this-site-is-finally-functional-amazing-things-happen-during-cluster-maintenance",
           title: 'This site is finally functional! Amazing things happen during cluster maintenance.',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-hep-tokens-project",
+          title: 'HEP Tokens Project',
+          description: "Can LLMs be trained to understand tokens from particle physics foundation models?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/experiment-visualization/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
