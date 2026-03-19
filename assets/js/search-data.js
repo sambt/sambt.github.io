@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-this-site-is-finally-functional-amazing-things-happen-during-cluster-maintenance",
+        },{id: "post-autoscidact-a-universal-pipeline-for-automated-scientific-discovery",
+        
+          title: "AutoSciDACT: A Universal Pipeline for Automated Scientific Discovery",
+        
+        description: "A unified, domain-agnostic pipeline for detecting novel phenomena in scientific data with rigorous statistical guarantees",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/autoscidact/";
+          
+        },
+      },{id: "news-this-site-is-finally-functional-amazing-things-happen-during-cluster-maintenance",
           title: 'This site is finally functional! Amazing things happen during cluster maintenance.',
           description: "",
           section: "News",},{id: "projects-hep-tokens-project",
