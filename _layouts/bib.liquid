@@ -198,8 +198,14 @@
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
+      {% assign arxiv_id = nil %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        {% assign arxiv_id = entry.arxiv %}
+      {% elsif entry.eprint and entry.archivePrefix and entry.archivePrefix | downcase == 'arxiv' %}
+        {% assign arxiv_id = entry.eprint %}
+      {% endif %}
+      {% if arxiv_id %}
+        <a href="http://arxiv.org/abs/{{ arxiv_id }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
