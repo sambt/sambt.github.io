@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an <a href="https://iaifi.org">IAIFI</a> Fellow at MIT, where I work on problems at the intersection of AI and physics. Recently I've been using AI to <a href="https://arxiv.org/abs/2603.20179">automate</a> and <a href="https://arxiv.org/abs/2510.21935">accelerate</a> research in the physical sciences. I also developed <a href="https://arxiv.org/abs/2604.01279">new optimizer</a>. You can find my CV <a href="/cv/">here</a>.
+I am an <a href="https://iaifi.org">IAIFI</a> Fellow at MIT, where I work on problems at the intersection of AI and physics. Recently I've been using AI to <a href="https://arxiv.org/abs/2603.20179">automate</a> and <a href="https://arxiv.org/abs/2510.21935">accelerate</a> research in the physical sciences. I also developed a <a href="https://arxiv.org/abs/2604.01279">new optimizer</a>. You can find my CV <a href="/cv/">here</a>.
 
 During my time at IAIFI, my research interests have shifted squarely towards fundamental questions in AI. I'm particularly excited about the nascent movement towards a "science of AI" (see e.g. <a href="https://arxiv.org/abs/2606.06533">here</a> and <a href="https://arxiv.org/abs/2604.21691">here</a>), and I feel there's lots progress to be made in the "phenomenology" of AI (to borrow a term from theoretical physics). This roughly means: empirically-grounded work that seeks to understand, characterize, and build predictive/explanatory *effective theories* of complex model behavior, without relying on intractable first principles calculations. 
 
